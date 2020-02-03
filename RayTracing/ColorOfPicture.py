@@ -3,7 +3,7 @@ from RayTracing.Side import *
 from RayTracing.Light import *
 
 
-eps = 0.0001
+EPS = 0.0001
 
 
 class ColorOfPicture:
@@ -160,7 +160,7 @@ class ColorOfPicture:
         self.lights = [Light(intensity=0.8, position=Point(0, 0.4, 1)),
                        Light(intensity=0.3, position=Point(0.4, 0.1, 1))]
 
-    def closest_intersection(self, camera: Point, direction: Point, min_dist: float = eps, max_dist: float = np.inf) \
+    def closest_intersection(self, camera: Point, direction: Point, min_dist: float = EPS, max_dist: float = np.inf) \
             -> (Shape, float):
         """
         Находит ближайший объект, с которым пересекается луч.
@@ -189,7 +189,7 @@ class ColorOfPicture:
 
         return closest_shape, closest_distance
 
-    def have_intersection(self, camera: Point, direction: Point, min_dist: float = eps, max_dist: float = np.inf) \
+    def have_intersection(self, camera: Point, direction: Point, min_dist: float = EPS, max_dist: float = np.inf) \
             -> bool:
         """
         Проверяет, есть ли пересечение с объектом.
