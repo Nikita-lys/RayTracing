@@ -1,7 +1,7 @@
 from timeit import default_timer as timer
 from tkinter import *
 from PIL import Image, ImageTk, ImageDraw
-from ColorOfPicture import *
+from RayTracing.ColorOfPicture import *
 
 
 class MakePicture:

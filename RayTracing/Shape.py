@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from Material import *
+from RayTracing.Material import *
 
 
 class Shape(Point):

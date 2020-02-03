@@ -1,4 +1,4 @@
-from Point import *
+from RayTracing.Point import *
 
 
 class Light:

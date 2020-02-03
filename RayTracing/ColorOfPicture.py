@@ -1,6 +1,6 @@
-from Sphere import *
-from Side import *
-from Light import *
+from RayTracing.Sphere import *
+from RayTracing.Side import *
+from RayTracing.Light import *
 
 
 eps = 0.0001

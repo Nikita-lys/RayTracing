@@ -1,4 +1,4 @@
-from Shape import *
+from RayTracing.Shape import *
 
 
 class Sphere(Shape):
